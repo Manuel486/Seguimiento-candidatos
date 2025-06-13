@@ -239,14 +239,14 @@
               ></button>
             </div>
             <div class="modal-body">
-              <div class="row row-cols-3 p-3 gap-1">
+              <!-- <div class="row row-cols-3 p-3 gap-1">
                 <div class="alert alert-danger" role="alert">
                   Tiene una observación en su último proyecto
                 </div>
                 <div class="alert alert-warning" role="alert">
                   Certificado COT cerca a caducar
                 </div>
-              </div>
+              </div> -->
 
               <div class="encabezado rounded"></div>
 
@@ -312,12 +312,12 @@
                     Información médica
                   </button>
                 </li>
-                <li>
+                <!-- <li>
                   <button class="btn btn-success">
                     <i class="bi bi-floppy"></i>
                     Guardar
                   </button>
-                </li>
+                </li> -->
               </ul>
 
               <!-- CONTENIDO DE CADA TAB -->
@@ -501,7 +501,7 @@
                         type="text"
                       />
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-3">
                       <label class="form-label" for="">Email</label>
                       <input
                         class="form-control form-control-sm border-dark"
@@ -509,7 +509,7 @@
                         type="email"
                       />
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                       <label class="form-label" for=""
                         >Departamento de residencia</label
                       >
@@ -517,6 +517,83 @@
                         class="form-control form-control-sm border-dark"
                         placeholder="Ingresar departamento"
                         type="text"
+                      />
+                    </div>
+
+                    <div class="col-lg-12">
+                      <hr />
+                    </div>
+
+                    <div class="col-lg-3">
+                      <label for="">POLIZA</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="text"
+                        placeholder="Ingresar estado"
+                      />
+                    </div>
+                    <div class="col-lg-3">
+                      <label for="">VIABILIDAD</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="text"
+                        placeholder="Ingresar estado"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="">Observación</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="text"
+                        placeholder="Ingresar observación"
+                      />
+                    </div>
+                    <div class="col-lg-3">
+                      <label for="">Ingreso a obra</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="date"
+                      />
+                    </div>
+                    <div class="col-lg-3">
+                      <label for="">Estado</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="text"
+                        placeholder="Ingresar estado"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="">Observación 2</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="text"
+                        placeholder="Ingresar observación 2"
+                      />
+                    </div>
+                    <div class="col-lg-3">
+                      <label for="">ALFA</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="text"
+                        placeholder="Ingresar Alfa"
+                      />
+                    </div>
+                    <div class="col-lg-3">
+                      <label for="">VIABILIDAD2</label>
+                      <input
+                        class="form-control form-control-sm border-dark"
+                        type="text"
+                        placeholder="Ingresar viabilidad"
+                      />
+                    </div>
+                    <div class="col-lg-3">
+                      <label for="">RR.HH</label>
+                      <input
+                        class="form-control form-control-sm border-dark bg-light"
+                        type="text"
+                        placeholder="Ingresar RR.HH"
+                        readonly
                       />
                     </div>
                   </div>
@@ -628,7 +705,7 @@
                     <div class="">
                       <div class="col-lg-8">
                         <label class="form-label" for=""
-                          >Ingresar nueva certificación</label
+                          >Ingresar el nombre del curso o certificación</label
                         >
                         <div class="d-flex gap-2">
                           <input
@@ -648,7 +725,7 @@
                         <div class="table-responsive">
                           <table class="table table-hover">
                             <thead class="">
-                              <th>Certificación</th>
+                              <th>Nombre</th>
                               <th>Inicio</th>
                               <th>Fin</th>
                               <th>Estado</th>
@@ -660,7 +737,7 @@
                                   <input
                                     type="text"
                                     class="form-control form-control-sm border-dark"
-                                    placeholder="Ingresar el nombre del certificación"
+                                    placeholder="Ingresar nombre del curso o certificación"
                                   />
                                 </td>
                                 <td class="">
@@ -707,6 +784,48 @@
                               </tr>
                               <tr>
                                 <td>Espacios confinados</td>
+                                <td>11/04/2023</td>
+                                <td>11/04/2025</td>
+                                <td>
+                                  <span class="badge text-bg-danger"
+                                    >Caducó</span
+                                  >
+                                </td>
+                                <td>
+                                  <i class="bi bi-pencil"></i>
+                                  <i class="bi bi-trash"></i>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Curso repsol</td>
+                                <td>11/04/2023</td>
+                                <td>11/04/2025</td>
+                                <td>
+                                  <span class="badge text-bg-danger"
+                                    >Caducó</span
+                                  >
+                                </td>
+                                <td>
+                                  <i class="bi bi-pencil"></i>
+                                  <i class="bi bi-trash"></i>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>CURSO.CBS/TOP/AACC.INDUC</td>
+                                <td>11/04/2023</td>
+                                <td>11/04/2025</td>
+                                <td>
+                                  <span class="badge text-bg-danger"
+                                    >Caducó</span
+                                  >
+                                </td>
+                                <td>
+                                  <i class="bi bi-pencil"></i>
+                                  <i class="bi bi-trash"></i>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>CURSO.ALT/E.CONF/EXC/BLOQ/COT</td>
                                 <td>11/04/2023</td>
                                 <td>11/04/2025</td>
                                 <td>
@@ -832,77 +951,6 @@
                         placeholder="Ingresar estado"
                       />
                     </div>
-                    <div class="col-lg-3">
-                      <label for="">POLIZA</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar estado"
-                      />
-                    </div>
-                    <div class="col-lg-3">
-                      <label for="">VIABILIDAD</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar estado"
-                      />
-                    </div>
-                    <div class="col-lg-6">
-                      <label for="">Observación</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar observación"
-                      />
-                    </div>
-                    <div class="col-lg-3">
-                      <label for="">Ingreso a obra</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="date"
-                      />
-                    </div>
-                    <div class="col-lg-3">
-                      <label for="">Estado</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar estado"
-                      />
-                    </div>
-                    <div class="col-lg-6">
-                      <label for="">Observación 2</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar observación 2"
-                      />
-                    </div>
-                    <div class="col-lg-3">
-                      <label for="">ALFA</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar Alfa"
-                      />
-                    </div>
-                    <div class="col-lg-3">
-                      <label for="">VIABILIDAD2</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar viabilidad"
-                      />
-                    </div>
-                    <div class="col-lg-3">
-                      <label for="">RR.HH</label>
-                      <input
-                        class="form-control form-control-sm border-dark"
-                        type="text"
-                        placeholder="Ingresar RR.HH"
-                      />
-                    </div>
                   </div>
                 </div>
               </div>
@@ -915,7 +963,8 @@
               >
                 Cerrar
               </button>
-              <button type="button" class="btn btn-primary">
+              <button class="btn btn-success">
+                <i class="bi bi-floppy"></i>
                 Guardar todos los cambios
               </button>
             </div>
