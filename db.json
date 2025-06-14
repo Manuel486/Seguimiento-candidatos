@@ -1,0 +1,198 @@
+{
+  "fases": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "SSMA"
+    },
+    {
+      "id": "02",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "OBRAS CIVILES"
+    },
+    {
+      "id": "03",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "DIRECCIÓN, CONTROL Y APOYO"
+    }
+  ],
+  "cargos": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "INSPECTOR DE SSMA"
+    },
+    {
+      "id": "02",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "ASISTENTE DE CONTROL DE DOCUMENTOS"
+    },
+    {
+      "id": "03",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "PEÓN"
+    },
+    {
+      "id": "04",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "ENFERMERO OCUPACIONAL"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Compresion Mipaya"
+    },
+    {
+      "id": "02",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Proyecto 2"
+    },
+    {
+      "id": "03",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Proyecto 3"
+    }
+  ],
+  "certificados": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Curso CBS /PTEHS",
+      "duracionMeses": "12"
+    },
+    {
+      "id": "02",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "COT",
+      "duracionMeses": "6"
+    },
+    {
+      "id": "03",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "ESPACIOS CONFINADOS",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "04",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Trabajos en Altura",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "05",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Aislamiento de Energía Peligrosa",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "06",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Excavaciones y Zanjas",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "07",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Curso de Inducción Malvinas",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "08",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Inducción Asuntos Comunitarios",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "09",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "TOP",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "10",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "PLAN MANEJO INCIDENTE(PMI)",
+      "duracionMeses": "24"
+    },
+    {
+      "id": "11",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "MANEJO CONTROL EMERGENCIA (MCE) 2",
+      "duracionMeses": "24"
+    }
+  ],
+  "candidato": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "apellidosYNombres": "CHINERI URQUIA SANTIAGO",
+      "dni": "46030482",
+      "fechaDeNacimiento": "25/07/1989",
+      "edad": "35",
+      "exactian": "CESADO",
+      "telefono1": "971596133",
+      "telefono2": "",
+      "email": "tiagochineriurquia@gmail.com",
+      "departamentoResidencia": "SAN BARTOLO"
+    }
+  ],
+  "candidatoCertificados": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "idCandidato": "01",
+      "idCertificado": "01",
+      "fechaDeInicio": "10/02/2025",
+      "fechaDeFin": "10/02/2026",
+      "observacion": ""
+    },
+    {
+      "id": "02",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "idCandidato": "01",
+      "idCertificado": "02",
+      "fechaDeInicio": "02/03/2024",
+      "fechaDeFin": "02/03/2025",
+      "observacion": ""
+    }
+  ],
+  "evaluacionMedica": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "nombre": "Examen médico"
+    }
+  ],
+  "candidatoEvaluacionMedica": [
+    {
+      "id": "01",
+      "idCandidato": "01",
+      "idEvaluacionMedica": "01",
+      "fechaDeEvaluacion": "14/04/2025",
+      "clinica": "MEDEX",
+      "resultado": "APROBADO",
+      "observacion": "",
+      "paseMedico": "APTO"
+    }
+  ],
+  "puesto": [
+    {
+      "id": "01",
+      "fechaDeRegistro": "2025-06-13T00:00:00.000Z",
+      "fechaDeRquerimiento": "21/04/2025",
+      "idProyecto": "01",
+      "numeroRequerimiento": "369",
+      "tipo": "INICIO DE ACTIVIDADES",
+      "idFase": "01",
+      "idCargo": "01",
+      "cantidad": "1",
+      "regimen": "COMÚN",
+      "fechaDeIngreso": "21/01/2025",
+      "fechaDeCese": "2/04/2025S",
+      "observado": "0",
+      "observacion": ""
+    }
+  ]
+}
